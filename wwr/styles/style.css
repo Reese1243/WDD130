@@ -59,6 +59,11 @@ header {
     width: 80px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a {
     color: var(--nav-link-color);
     text-align: center;
@@ -89,12 +94,15 @@ nav a:hover {
     width: 100%;
 }
 
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-    color: white;
+#hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: white;
 }
 
 .home-title {
@@ -105,7 +113,7 @@ nav a:hover {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 h4 {
@@ -142,7 +150,7 @@ main section img {
     width: 100%;
 }
 
-.rivers-card, .camping-card, .rapids.card {
+.rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
     
 }
@@ -157,7 +165,7 @@ main section img {
     grid-row: 2/3;
 }
 
-.rapids.card {
+.rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
 }
