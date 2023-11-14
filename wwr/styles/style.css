@@ -247,6 +247,64 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* Rivers Page */
+
+.river-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid var(--accent1-color);
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+}
+
+.river-grid img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: center;
+    align-self: center;
+    border: 5px solid var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px var(--paragraph-color-on-white);
+
+
+}
+
+.river-grid h2 {
+    background-color: #0077b6;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.round {
+    margin-top: 25%;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.reversed .round {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.para {
+    padding: 25px;
+    background-color: #0077b6;
+}
+
+
+.river-title {
+    text-align: center;
+}
+
+.reversed {
+    margin: 20px 0;
+}
+
+.reversed img{
+    grid-column: 2/3;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -286,5 +344,25 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+
+    /* Rivers Page */
+
+    .river-grid {
+        display: block;
+    }
+
+    .river-grid img {
+        width: 100%;
+        box-shadow: none;
+    }
+    
+    .round {
+        margin: 0 10px;
+        margin-bottom: 10px;
+    }
+
+    .reversed .round {
+        margin-right: 10px;
     }
 }
