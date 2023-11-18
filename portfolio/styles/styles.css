@@ -22,3 +22,51 @@
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
+
+body {
+  background-color: var(--accent2-color);
+  font-size: 20px;
+}
+
+header {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 250px auto;
+}
+
+#reese-logo {
+  width: 200px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a, footer a {
+  color: white;
+  text-decoration: none;
+  padding: 50px;
+
+}
+
+nav a:hover {
+  color: var(--nav-background-color);
+}
+
+#home-text {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a:hover {
+  color: var(--nav-background-color);
+}
