@@ -23,6 +23,8 @@
   --nav-hover-background-color: #396E94;
 }
 
+/* Home Page */
+
 body {
   background-color: var(--accent2-color);
   font-size: 20px;
@@ -69,4 +71,16 @@ footer {
 
 footer a:hover {
   color: var(--nav-background-color);
+}
+
+/* About Me */
+
+#trombone-img {
+  width: 200px;
+}
+
+/*Projects*/
+
+#blueprint-img {
+  width: 200px;
 }
