@@ -75,6 +75,13 @@ footer a:hover {
 
 /* About Me */
 
+#about-me-para {
+  border: 2px solid;
+  padding: 20px; 
+  width: 400px;
+  margin: 20px;
+}
+
 #trombone-img {
   width: 200px;
 }
