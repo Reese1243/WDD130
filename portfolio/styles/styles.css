@@ -75,11 +75,27 @@ footer a:hover {
 
 /* About Me */
 
+#about-main {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#resume {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border: 2px solid black;
+  margin-bottom: 50px;
+}
+
 #about-me-para {
   border: 2px solid;
   padding: 20px; 
   width: 400px;
   margin: 20px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/2;
+  
 }
 
 #trombone-img {
