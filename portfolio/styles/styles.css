@@ -107,3 +107,31 @@ footer a:hover {
 #blueprint-img {
   width: 200px;
 }
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project-card {
+  border: 5px solid black;
+  border-radius: 1%;
+  margin-bottom: 2%;
+
+}
+
+.project-card img{
+  width: 100%;
+}
+
+.cards section {
+  max-width: 340px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 5px;
+}
